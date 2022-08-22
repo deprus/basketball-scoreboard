@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url('CursedTimerUlil-Aznm.ttf');
+  }
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.board-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vw;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-top: 18vh;
+}
+
+.title {
+    width: 27vw;
+    height: 31vh;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background: #080001;
+    width: 27vw;
+    height: 31vh;
+    border-radius: 15px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23vh;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-points-team {
+    margin-top: 7vh;
+    width: 27vw;
+    display: flex;
+    gap: 2vw;
+    justify-content: space-between;
+    
+}
+
+button {
+    background-color: inherit;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    text-align: center;
+    color: #9AABD8;
+    width: 7.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    border: 0.4vw solid #9AABD8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#new-game-btn {
+    margin: 0 auto;
+    width: 11vw;
+    height: 14vh;
+    aspect-ratio: auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    color: yellow;
+    line-height: 3vw;
+}
